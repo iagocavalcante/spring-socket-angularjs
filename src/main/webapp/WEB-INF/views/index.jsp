@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css" />
-    <link href="assets/style.css" rel="stylesheet" type="text/css" />
+    <link href="spring-ng-chat/assets/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body ng-app="chatApp">
     <div ng-controller="ChatCtrl" class="container">
@@ -20,12 +20,12 @@
       </p>
     </div>
     
-    <script src="libs/sockjs/sockjs.min.js" type="text/javascript"></script>
-    <script src="libs/stomp-websocket/lib/stomp.min.js" type="text/javascript"></script>
-    <script src="libs/angular/angular.min.js"></script>
-    <script src="libs/lodash/dist/lodash.min.js"></script>
-    <script src="app/app.js" type="text/javascript"></script>
-    <script src="app/controllers.js" type="text/javascript"></script>
-    <script src="app/services.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.3.0/sockjs.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+    <script src="spring-ng-chat/app/app.js" type="text/javascript"></script>
+    <script src="spring-ng-chat/app/controllers.js" type="text/javascript"></script>
+    <script src="spring-ng-chat/app/services.js" type="text/javascript"></script>
   </body>
 </html>
